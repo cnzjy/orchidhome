@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrchidHome", "OrchidHome\OrchidHome.vcproj", "{72EE2748-A953-4934-BD65-07E99AEE46EA}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "OrchidHomeCab", "OrchidHomeCab\OrchidHomeCab.vddproj", "{AEDD82F3-9C62-495F-AF71-7F28A053A08D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeTool", "HomeTool\HomeTool.vcproj", "{901B0888-45C9-4E45-8D3F-22E69DADDE62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AEDD82F3-9C62-495F-AF71-7F28A053A08D} = {AEDD82F3-9C62-495F-AF71-7F28A053A08D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrchidRegSvr32", "OrchidRegSvr32\OrchidRegSvr32.vcproj", "{98EB0AAE-C4F2-445E-9FE3-103245B02ABB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MUI0804", "OrchidHome\MUI0804.vcproj", "{EE67968E-85CE-4EF5-86F4-336CB7857943}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MUI0404", "OrchidHome\MUI0404.vcproj", "{0F21F049-0584-4953-80E6-3CAF2EA26568}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Setup", "Setupdll\Setup.vcproj", "{D6EFE731-5D4D-4938-80F4-707BFD4DF829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Smartphone 2003 (ARMV4) = Debug|Smartphone 2003 (ARMV4)
+		Release|Smartphone 2003 (ARMV4) = Release|Smartphone 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EE2748-A953-4934-BD65-07E99AEE46EA}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{72EE2748-A953-4934-BD65-07E99AEE46EA}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{72EE2748-A953-4934-BD65-07E99AEE46EA}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{72EE2748-A953-4934-BD65-07E99AEE46EA}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{AEDD82F3-9C62-495F-AF71-7F28A053A08D}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug
+		{AEDD82F3-9C62-495F-AF71-7F28A053A08D}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug
+		{AEDD82F3-9C62-495F-AF71-7F28A053A08D}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release
+		{AEDD82F3-9C62-495F-AF71-7F28A053A08D}.Release|Smartphone 2003 (ARMV4).Build.0 = Release
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Debug|Smartphone 2003 (ARMV4).Deploy.0 = Debug|Smartphone 2003 (ARMV4)
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{901B0888-45C9-4E45-8D3F-22E69DADDE62}.Release|Smartphone 2003 (ARMV4).Deploy.0 = Release|Smartphone 2003 (ARMV4)
+		{98EB0AAE-C4F2-445E-9FE3-103245B02ABB}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{98EB0AAE-C4F2-445E-9FE3-103245B02ABB}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{98EB0AAE-C4F2-445E-9FE3-103245B02ABB}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{98EB0AAE-C4F2-445E-9FE3-103245B02ABB}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{EE67968E-85CE-4EF5-86F4-336CB7857943}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{EE67968E-85CE-4EF5-86F4-336CB7857943}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{EE67968E-85CE-4EF5-86F4-336CB7857943}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{EE67968E-85CE-4EF5-86F4-336CB7857943}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{0F21F049-0584-4953-80E6-3CAF2EA26568}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{0F21F049-0584-4953-80E6-3CAF2EA26568}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{0F21F049-0584-4953-80E6-3CAF2EA26568}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{0F21F049-0584-4953-80E6-3CAF2EA26568}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{D6EFE731-5D4D-4938-80F4-707BFD4DF829}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{D6EFE731-5D4D-4938-80F4-707BFD4DF829}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{D6EFE731-5D4D-4938-80F4-707BFD4DF829}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{D6EFE731-5D4D-4938-80F4-707BFD4DF829}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

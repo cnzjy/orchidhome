@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<home>
+	<author>Orchid Mobile Software</author>
+	<contacturl>http://www.orchid-soft.com/</contacturl>
+	<title lang="0x0409">Orchid Compact</title>
+	<title lang="0x0804">Orchid 简洁</title>
+	<title lang="0x0404">Orchid 簡潔</title>
+
+	<version>1.0</version>
+	<default font-face="nina" font-size="14" font-weight="normal" padding-left="4" padding-right="4" bgcolor="transparent" fgcolor="COLOR_HOMETEXT" padding-top="2" b-border-color="COLOR_HOMERULE" b-border-width="1">
+		<format state="selected" fgcolor="COLOR_HOMEHIGHLIGHTTEXT"/>
+	</default>
+	<background bgimage="\windows\WindowsMobile.jpg" valign="bottom" bgcolor="COLOR_GRADRIGHT" />
+	<scheme>
+		<color name="COLOR_WINDOW" value="#FFFFFF" />
+		<color name="COLOR_WINDOWTEXT" value="#000000" />
+		<color name="COLOR_STATIC" value="#FFFFFF" />
+		<color name="COLOR_STATICTEXT" value="#000000" />
+		<color name="COLOR_GRAYTEXT" value="#808080" />
+		<color name="COLOR_WINDOWFRAME" value="#000000" />
+		<color name="COLOR_HIGHLIGHT" value="#004196" />
+		<color name="COLOR_HIGHLIGHTTEXT" value="#FFFFFF" />
+		<color name="COLOR_MENU" value="#C4E7FF" />
+		<color name="COLOR_MENUTEXT" value="#000000" />
+		<color name="COLOR_GRADLEFT" value="#ffffff" />
+		<color name="COLOR_GRADRIGHT" value="#C5E3F5" />
+		<color name="COLOR_INTGRADLEFT" value="#ffffff" />
+		<color name="COLOR_INTGRADRIGHT" value="#A1D6F5" />
+		<color name="COLOR_HIGHGRADLEFT" value="#004196" />
+		<color name="COLOR_HIGHGRADRIGHT" value="#004196" />
+		<color name="COLOR_TRAYGRADLEFT" value="#2E97E3" />
+		<color name="COLOR_TRAYGRADRIGHT" value="#004196" />
+		<color name="COLOR_TRAYTEXT" value="#FFFFFF" />
+		<color name="COLOR_BTNFACE" value="#8ED4F7" />
+		<color name="COLOR_BTNTEXT" value="#000000" />
+		<color name="COLOR_SCROLLBAR" value="#2E97E3" />
+		<color name="COLOR_ALERTWINDOW" value="#C4E7FF" />
+		<color name="COLOR_ALERTTITLE" value="#004196" />
+		<color name="COLOR_ALERTRULE" value="#000000" />
+		<color name="COLOR_HOMETEXT" value="#FFFFFF" />
+		<color name="COLOR_HOMEHIGHLIGHTTEXT" value="#FFFFFF" />
+		<color name="COLOR_HOMERULE" value="#003B8F" />
+		<color name="COLOR_HOMEHIGHLIGHT" value="#003684" />
+	</scheme>
+	<plugin clsid="{837FC251-FE69-43ad-84E0-EBCEDEBA0884}" name="iconbar" height="20">
+		<iconbar fgcolor="COLOR_TRAYTEXT"/>
+		<background gradient="title" bgcolor="COLOR_TRAYGRADLEFT" b-border-color="COLOR_WINDOWFRAME" b-border-width="1"/>
+	</plugin>
+	<plugin clsid="{79EFB752-CB70-446d-B317-499723482B3D}" name="startmru" height="38">
+		<mru y="2"/>
+	</plugin>
+
+  <!-- 拆成多个插件块是考虑到各部分的更新频率不一样，拆开后更省电 -->
+	<!-- Orchid Home 日历插件 -->
+	<plugin clsid="{AFC6BAE1-194B-487c-856C-70C540EFD189}" name="calender">
+		<background padding-bottom="0" b-border-width="0"/>
+		<label align="left" valign="top" font-size="28" font-width="7" cleartype="true" shadow="true">
+			<format state="selected" bgcolor="transparent" font-underline="true"/>
+			<shortcut lang="0x0804" cmd="ShowInfo" title="系统信息"/>
+			<shortcut lang="0x0404" cmd="ShowInfo" title="系統資訊"/>
+			<text><hour/>:<minute len="2" leadzero="true"/></text>
+		</label>
+		<label align="right" valign="top">
+			<text lang="0x0804"><year/>-<month/>-<day/><space/>星期<cweek/><space/><xingzuo/></text>
+			<text lang="0x0404"><year/>-<month/>-<day/><space/>星期<cweek/><space/><xingzuo/></text>
+		</label>
+		<label y="14" align="right">
+			<text lang="0x0804"><shengxiao/>年<space/><lmonth/><space/><lday/><jieqi ls=" "/></text>
+			<text lang="0x0404"><shengxiao/>年<space/><lmonth/><space/><lday/><jieqi ls=" "/></text>
+		</label>
+	</plugin>
+
+	<!-- Orchid Home 节日插件 -->
+	<plugin clsid="{AFC6BAE1-194B-487c-856C-70C540EFD189}" name="holiday">
+		<background padding-top="0" padding-bottom="0" b-border-width="0" />
+		<label align="right" ellipsis="true">
+			<text lang="0x0804"><holiday ls="今日 "/><holiday sday="1" ls=" 明日 "/><holiday sday="2" eday="6" incdate="true" ls=" "/></text>
+			<text lang="0x0404"><holiday ls="今日 "/><holiday sday="1" ls=" 明日 "/><holiday sday="2" eday="6" incdate="true" ls=" "/></text>
+		</label>
+	</plugin>
+
+	<!-- Orchid Home 倒计时插件 -->
+	<plugin clsid="{AFC6BAE1-194B-487c-856C-70C540EFD189}" name="downcounter">
+		<background padding-top="0" padding-bottom="0" b-border-width="0" />
+		<label align="right" ellipsis="true">
+			<text lang="0x0804"><downtext refname="" ls="距离" rs="还有"/><downday refname="" invalid="0" isend="true" ls="" rs="天"/></text>
+			<text lang="0x0404"><downtext refname="" ls="距離" rs="還有"/><downday refname="" invalid="0" isend="true" ls="" rs="天"/></text>
+		</label>
+	</plugin>
+
+  <!-- Orchid Home 信息插件 -->
+	<plugin clsid="{AFC6BAE1-194B-487c-856C-70C540EFD189}" name="info">
+		<background padding-top="0"/>
+		<label align="right" font-size="12" font-width="3" fgcolor="#FFE384" cleartype="true">
+			<text lang="0x0804">电池:<battery/>%<temperature invalid="0" ls=" " rs="℃"/><space/>信号:<signal/>%<space/>内存:<memoryload op="x-" opnum="100"/>%<space/>存储:<storageload op="x-" opnum="100"/>%</text>
+			<text lang="0x0404">電池:<battery/>%<temperature invalid="0" ls=" " rs="℃"/><space/>信號:<signal/>%<space/>記憶:<memoryload op="x-" opnum="100"/>%<space/>存儲:<storageload op="x-" opnum="100"/>%</text>
+		</label>
+	</plugin>
+
+	<plugin clsid="{37391041-C324-4725-BEE1-3232ED3539CA}" name="callprog" height="41">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<format state="nocall" visible="false"/>
+		<label>
+			<text lang="0x0409">Call in progress:</text>
+			<text lang="0x0404">通話中:</text>
+			<text lang="0x0804">通话中...</text>
+		</label>
+		<label y="17">
+			<text><progress/></text>
+		</label>
+	</plugin>
+	<plugin clsid="{0BA8ABB8-1F1D-417f-88C6-DA8530E2E7A6}" name="missedcalls" height="20">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<format state="nocall" visible="false"/>
+		<label h="16">
+			<text lang="0x0409">Missed calls:<calls/></text>
+			<text lang="0x0404">未接來電:<calls/></text>
+			<text lang="0x0804">未接电话:<calls/></text>
+		</label>
+	</plugin>
+	<plugin clsid="{2FFD93B3-0FF0-4228-A6D6-D2DF177D7D92}" name="alldayevent" height="20">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<format state="noevent" visible="false"/>
+		<label h="16">
+			<text><subject/></text>
+		</label>
+	</plugin>
+	<plugin clsid="{865A354A-4A96-4687-B001-C155DC0DBE76}" name="calendar" height="40">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<label h="16">
+			<text><subject/></text>
+		</label>
+		<label y="17">
+			<text><time/></text>
+		</label>
+	</plugin>
+	<plugin clsid="{95976968-45D5-40c9-9779-2B859B1C2FEC}" name="profile" height="20">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<label>
+			<text lang="0x0409">Profile:<profile/></text>
+			<text lang="0x0404">操作模式:<profile/></text>
+			<text lang="0x0804">情景模式:<profile/></text>
+		</label>
+	</plugin>
+	<plugin clsid="{8486CC1E-025B-4888-9C76-048DF7C1787D}" name="msgcount2" height="20" autoheight="false">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<mail account="sms"/>
+	</plugin>
+	<plugin clsid="{8486CC1E-025B-4888-9C76-048DF7C1787D}" name="msgcount2" height="20" autoheight="false">
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<mail account="mms"/>
+	</plugin>
+	<plugin clsid="{8486CC1E-025B-4888-9C76-048DF7C1787D}" name="msgcount2" height="20" autoheight="true">
+	<text padding-bottom="4"/>
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<mail account="activesync"/>
+	</plugin>
+	<plugin clsid="{8486CC1E-025B-4888-9C76-048DF7C1787D}" name="msgcount2" height="20" autoheight="true">
+	<text padding-bottom="4"/>
+		<background>
+			<format state="selected" bgcolor="COLOR_HOMEHIGHLIGHT"/>
+		</background>
+		<mail account="others"/>
+	</plugin>
+</home>

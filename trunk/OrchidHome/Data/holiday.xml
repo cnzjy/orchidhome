@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<holidays>
+  <!-- level 1-3 为 常用节日、较常用节日、不常用节日。short 为短格式节日，重要节日应定义 -->
+  <!-- 公历节日。不需要提供年份。 -->
+	<item lang="0x0804" type="Solar" level="1" month="1" day="1" text="元旦节" short="元旦"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="2" text="世界湿地日" short="湿地"/>
+	<item lang="0x0804" type="Solar" level="2" month="2" day="10" text="国际气象节" short="气象"/>
+	<item lang="0x0804" type="Solar" level="1" month="2" day="14" text="情人节" short="情人"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="1" text="国际海豹日" short="海豹"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="3" text="全国爱耳日" short="爱耳"/>
+	<item lang="0x0804" type="Solar" level="2" month="3" day="5" text="学雷锋纪念日" short="雷锋"/>
+	<item lang="0x0804" type="Solar" level="1" month="3" day="8" text="妇女节" short="妇女"/>
+	<item lang="0x0804" type="Solar" level="1" month="3" day="12" text="植树节" short="植树"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="14" text="国际警察日" short="警察"/>
+	<item lang="0x0804" type="Solar" level="1" month="3" day="15" text="消费者权益日" short="消费"/>
+	<item lang="0x0804" type="Solar" level="2" month="3" day="16" text="中国国医节" short="国医"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="17" text="国际航海日" short="航海"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="21" text="世界森林日" short="森林"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="21" text="消除种族歧视国际日" short="种族"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="21" text="世界儿歌日" short="儿歌"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="22" text="世界水日" short="水日"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="23" text="世界气象日" short="气象"/>
+	<item lang="0x0804" type="Solar" level="2" month="3" day="24" text="世界防治结核病日" short="结核"/>
+	<item lang="0x0804" type="Solar" level="2" month="3" day="25" text="全国中小学生安全教育日" short="安全"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="30" text="巴勒斯坦国土日" short="国土"/>
+	<item lang="0x0804" type="Solar" level="1" month="4" day="1" text="愚人节" short="愚人"/>
+	<item lang="0x0804" type="Solar" level="2" month="4" day="1" text="全国爱国卫生运动月" short="爱卫"/>
+	<item lang="0x0804" type="Solar" level="2" month="4" day="1" text="税收宣传月" short="税收"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="7" text="世界卫生日" short="卫生"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="22" text="世界地球日" short="地球"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="23" text="世界图书和版权日" short="版权"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="24" text="亚非新闻工作者日" short="新闻"/>
+	<item lang="0x0804" type="Solar" level="1" month="5" day="1" text="劳动节" short="劳动"/>
+	<item lang="0x0804" type="Solar" level="1" month="5" day="4" text="青年节" short="青年"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="5" text="碘缺乏病防治日" short="防碘"/>
+	<item lang="0x0804" type="Solar" level="2" month="5" day="8" text="世界红十字日" short="红十"/>
+	<item lang="0x0804" type="Solar" level="1" month="5" day="12" text="国际护士节" short="护士"/>
+	<item lang="0x0804" type="Solar" level="2" month="5" day="15" text="国际家庭日" short="家庭"/>
+	<item lang="0x0804" type="Solar" level="2" month="5" day="17" text="国际电信日" short="电信"/>
+	<item lang="0x0804" type="Solar" level="2" month="5" day="18" text="国际博物馆日" short="博物"/>
+	<item lang="0x0804" type="Solar" level="2" month="5" day="20" text="全国学生营养日" short="营养"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="23" text="国际牛奶日" short="牛奶"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="31" text="世界无烟日" short="无烟"/>
+	<item lang="0x0804" type="Solar" level="1" month="6" day="1" text="国际儿童节" short="儿童"/>
+	<item lang="0x0804" type="Solar" level="2" month="6" day="5" text="世界环境保护日" short="环境"/>
+	<item lang="0x0804" type="Solar" level="2" month="6" day="6" text="全国爱眼日" short="爱眼"/>
+	<item lang="0x0804" type="Solar" level="3" month="6" day="17" text="防治荒漠化和干旱日" short="防荒"/>
+	<item lang="0x0804" type="Solar" level="3" month="6" day="23" text="国际奥林匹克日" short="奥林"/>
+	<item lang="0x0804" type="Solar" level="2" month="6" day="25" text="全国土地日" short="土地"/>
+	<item lang="0x0804" type="Solar" level="2" month="6" day="26" text="国际禁毒日" short="禁毒"/>
+	<item lang="0x0804" type="Solar" level="1" month="7" day="1" text="中共诞辰" short="中共"/>
+	<item lang="0x0804" type="Solar" level="3" month="7" day="1" text="世界建筑日" short="建筑"/>
+	<item lang="0x0804" type="Solar" level="3" month="7" day="2" text="国际体育记者日" short="体育"/>
+	<item lang="0x0804" type="Solar" level="3" month="7" day="11" text="世界人口日" short="人口"/>
+	<item lang="0x0804" type="Solar" level="3" month="7" day="30" text="非洲妇女日" short="非洲"/>
+	<item lang="0x0804" type="Solar" level="1" month="8" day="1" text="建军节" short="建军"/>
+	<item lang="0x0804" type="Solar" level="2" month="8" day="8" text="中国男子节(爸爸节)" short="男子"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="8" text="国际扫盲日" short="扫盲"/>
+	<item lang="0x0804" type="Solar" level="2" month="9" day="8" text="国际新闻工作者日" short="新闻"/>
+	<item lang="0x0804" type="Solar" level="1" month="9" day="10" text="中国教师节" short="教师"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="14" text="世界清洁地球日" short="地球"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="16" text="国际臭氧层保护日" short="臭氧"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="20" text="国际爱牙日" short="爱牙"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="27" text="世界旅游日" short="旅游"/>
+	<item lang="0x0804" type="Solar" level="2" month="9" day="28" text="孔子诞辰" short="孔子"/>
+	<item lang="0x0804" type="Solar" level="1" month="10" day="1" text="国庆节" short="国庆"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="1" text="世界音乐日" short="音乐"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="1" text="国际老人节" short="老人"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="2" text="国际和平与民主自由斗争日" short="和平"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="4" text="世界动物日" short="动物"/>
+	<item lang="0x0804" type="Solar" level="1" month="10" day="6" text="老人节" short="老人"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="8" text="全国高血压日" short="高血"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="8" text="世界视觉日" short="视觉"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="9" text="世界邮政日" short="邮政"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="9" text="万国邮联日" short="邮联"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="10" text="世界精神卫生日" short="精神"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="13" text="世界保健日" short="保健"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="13" text="国际教师节" short="教师"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="14" text="世界标准日" short="标准"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="15" text="国际盲人节(白手杖节)" short="盲人"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="16" text="世界粮食日" short="粮食"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="17" text="世界消除贫困日" short="除贫"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="22" text="世界传统医药日" short="医药"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="24" text="联合国日" short="联合"/>
+	<item lang="0x0804" type="Solar" level="2" month="10" day="31" text="世界勤俭日" short="勤俭"/>
+	<item lang="0x0804" type="Solar" level="2" month="11" day="8" text="中国记者日" short="记者"/>
+	<item lang="0x0804" type="Solar" level="2" month="11" day="9" text="全国消防安全宣传教育日" short="消防"/>
+	<item lang="0x0804" type="Solar" level="2" month="11" day="10" text="世界青年节" short="青年"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="11" text="国际科学与和平周" short="科学"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="14" text="世界糖尿病日" short="糖尿"/>
+	<item lang="0x0804" type="Solar" level="2" month="11" day="17" text="国际大学生节" short="学生"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="17" text="世界学生节" short="学生"/>
+	<item lang="0x0804" type="Solar" level="1" month="11" day="20" text="彝族年" short="彝年"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="21" text="世界问候日" short="问候"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="21" text="世界电视日" short="电视"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="29" text="国际声援巴勒斯坦人民国际日" short="声援"/>
+	<item lang="0x0804" type="Solar" level="2" month="12" day="1" text="世界艾滋病日" short="艾滋"/>
+	<item lang="0x0804" type="Solar" level="2" month="12" day="3" text="世界残疾人日" short="残疾"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="5" text="国际经济和社会发展志愿人员日" short="志愿"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="8" text="国际儿童电视日" short="电视"/>
+	<item lang="0x0804" type="Solar" level="2" month="12" day="9" text="世界足球日" short="足球"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="10" text="世界人权日" short="人权"/>
+	<item lang="0x0804" type="Solar" level="2" month="12" day="21" text="国际篮球日" short="篮球"/>
+	<item lang="0x0804" type="Solar" level="1" month="12" day="24" text="平安夜" short="平安"/>
+	<item lang="0x0804" type="Solar" level="1" month="12" day="25" text="圣诞节" short="圣诞"/>
+	<item lang="0x0804" type="Solar" level="1" month="12" day="29" text="国际生物多样性日" short="生物"/>
+
+  <!-- 名人纪念日。 -->
+	<item lang="0x0804" type="Solar" level="3" month="1" day="4" text="雅各布·格林诞辰" short="格林"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="6" text="圣女贞德诞辰" short="贞德"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="12" text="杰克·伦敦诞辰" short="伦敦"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="15" text="莫里哀诞辰" short="莫里"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="17" text="富兰克林诞辰" short="富兰"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="19" text="瓦特诞辰" short="瓦特"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="22" text="培根诞辰" short="培根"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="23" text="郎之万诞辰" short="郎之"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="27" text="莫扎特诞辰" short="莫扎"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="29" text="罗曼·罗兰诞辰" short="罗曼"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="30" text="甘地诞辰" short="甘地"/>
+	<item lang="0x0804" type="Solar" level="3" month="1" day="31" text="舒柏特诞辰" short="舒柏"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="3" text="门德尔松诞辰" short="门德"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="7" text="门捷列夫诞辰" short="门捷"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="11" text="爱迪生诞辰" short="爱迪"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="11" text="狄更斯诞辰" short="狄更"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="12" text="林肯诞辰" short="林肯"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="12" text="达尔文诞辰" short="达尔"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="17" text="布鲁诺诞辰" short="布鲁"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="18" text="伏打诞辰" short="伏打"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="19" text="哥白尼诞辰" short="哥白"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="22" text="赫兹诞辰" short="赫兹"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="22" text="叔本华诞辰" short="叔本"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="22" text="华盛顿诞辰" short="华盛"/>
+	<item lang="0x0804" type="Solar" level="3" month="2" day="26" text="雨果诞辰" short="雨果"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="2" text="斯美塔那诞辰" short="斯美"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="4" text="白求恩诞辰" short="白求"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="6" text="布朗宁诞辰" short="布朗"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="6" text="米开朗琪罗诞辰" short="米开"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="7" text="竺可桢诞辰" short="竺可"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="14" text="爱因斯坦诞辰" short="爱因"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="21" text="巴赫诞辰" short="巴赫"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="21" text="穆索尔斯基诞辰" short="穆索"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="22" text="贺龙诞辰" short="贺龙"/>
+	<item lang="0x0804" type="Solar" level="3" month="3" day="28" text="高尔基诞辰" short="高尔"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="1" text="海顿诞辰" short="海顿"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="1" text="果戈理诞辰" short="果戈"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="15" text="达·芬奇诞辰" short="芬奇"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="16" text="卓别林诞辰" short="卓别"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="20" text="祖冲之诞辰" short="祖冲"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="22" text="列宁诞辰" short="列宁"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="22" text="康德诞辰" short="康德"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="22" text="奥本海默诞辰" short="奥本"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="23" text="普朗克诞辰" short="普朗"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="23" text="莎士比亚诞辰" short="莎士"/>
+	<item lang="0x0804" type="Solar" level="3" month="4" day="30" text="高斯诞辰" short="高斯"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="5" text="马克思诞辰" short="马克"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="7" text="柴可夫斯基" short="柴可"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="7" text="泰戈尔诞辰" short="泰戈"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="11" text="冼星海诞辰" short="冼星"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="11" text="李比希诞辰" short="李比"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="20" text="巴尔扎克诞辰" short="巴尔"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="22" text="瓦格纳诞辰" short="瓦格"/>
+	<item lang="0x0804" type="Solar" level="3" month="5" day="31" text="惠特曼诞辰" short="惠特"/>
+	<item lang="0x0804" type="Solar" level="3" month="6" day="1" text="杜威诞辰" short="杜威"/>
+	<item lang="0x0804" type="Solar" level="3" month="6" day="2" text="哈代诞辰" short="哈代"/>
+	<item lang="0x0804" type="Solar" level="3" month="6" day="8" text="舒曼诞辰" short="舒曼"/>
+	<item lang="0x0804" type="Solar" level="3" month="7" day="15" text="伦勃朗诞辰" short="伦勃"/>
+	<item lang="0x0804" type="Solar" level="3" month="8" day="5" text="阿贝尔诞辰" short="阿贝"/>
+	<item lang="0x0804" type="Solar" level="3" month="8" day="8" text="狄拉克诞辰" short="狄拉"/>
+	<item lang="0x0804" type="Solar" level="3" month="8" day="26" text="陈毅诞辰" short="陈毅"/>
+	<item lang="0x0804" type="Solar" level="3" month="8" day="28" text="歌德诞辰" short="歌德"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="25" text="鲁迅诞辰" short="鲁迅"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="26" text="巴甫洛夫诞辰" short="巴甫"/>
+	<item lang="0x0804" type="Solar" level="3" month="9" day="29" text="奥斯特洛夫斯基诞辰" short="奥斯"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="11" text="伯辽兹诞辰" short="伯辽"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="21" text="诺贝尔诞辰" short="诺贝"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="22" text="李斯特诞辰" short="李斯"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="26" text="伽罗瓦诞辰" short="伽罗"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="29" text="李大钊诞辰" short="李大"/>
+	<item lang="0x0804" type="Solar" level="3" month="10" day="7" text="居里夫人诞辰" short="居里"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="8" text="哈雷诞辰" short="哈雷"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="24" text="刘少奇诞辰" short="刘少"/>
+	<item lang="0x0804" type="Solar" level="3" month="11" day="28" text="恩格斯诞辰" short="恩格"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="1" text="朱德诞辰" short="朱德"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="5" text="海森堡诞辰" short="海森"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="11" text="玻恩诞辰" short="玻恩"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="13" text="海涅诞辰" short="海涅"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="16" text="贝多芬诞辰" short="贝多"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="21" text="斯大林诞辰" short="斯大"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="25" text="牛顿诞辰" short="牛顿"/>
+	<item lang="0x0804" type="Solar" level="3" month="12" day="29" text="阿·托尔斯泰诞辰" short="托尔"/>
+
+  <!-- 公历纪念日。必须提供年份，显示时会自动在后面加上"XXX周年纪念"。 -->
+	<item lang="0x0804" type="SolarDay" level="1" year="1976" month="1" day="8" text="周恩来逝世" short="周逝"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1997" month="2" day="19" text="邓小平逝世" short="邓逝"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1898" month="3" day="5" text="周恩来诞辰" short="周诞"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1925" month="3" day="12" text="孙中山逝世" short="孙逝"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1997" month="7" day="1" text="香港回归" short="香港"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1937" month="7" day="7" text="抗日战争" short="抗日"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1945" month="8" day="15" text="抗日战争胜利" short="抗日"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1904" month="8" day="22" text="邓小平诞辰" short="邓诞"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1976" month="9" day="9" text="毛泽东逝世" short="毛逝"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1931" month="9" day="18" text="九·一八事变" short="事变"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1911" month="10" day="10" text="辛亥革命" short="辛亥"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1917" month="11" day="7" text="十月社会主义革命" short="革命"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1866" month="11" day="12" text="孙中山诞辰" short="孙诞"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1936" month="12" day="12" text="西安事变" short="西安"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1937" month="12" day="13" text="南京大屠杀" short="南京"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1999" month="12" day="20" text="澳门回归" short="澳门"/>
+	<item lang="0x0804" type="SolarDay" level="1" year="1893" month="12" day="26" text="毛泽东诞辰" short="毛诞"/>
+
+  <!-- 公历指定周节日。数据为每年 month 月第 week 个星期 weekday，week = 5 表示最后一个。  -->
+	<item lang="0x0804" type="Week" level="3" month="1" week="5" weekday="0" text="世界麻风日" short="麻风"/>
+	<item lang="0x0804" type="Week" level="1" month="5" week="2" weekday="0" text="国际母亲节" short="母亲"/>
+	<item lang="0x0804" type="Week" level="2" month="5" week="3" weekday="0" text="全国助残日" short="助残"/>
+	<item lang="0x0804" type="Week" level="1" month="6" week="3" weekday="0" text="国际父亲节" short="父亲"/>
+	<item lang="0x0804" type="Week" level="3" month="7" week="3" weekday="0" text="被奴役国家周" short="奴役"/>
+	<item lang="0x0804" type="Week" level="2" month="9" week="3" weekday="2" text="国际和平日" short="和平"/>
+	<item lang="0x0804" type="Week" level="2" month="9" week="4" weekday="0" text="国际聋人节" short="聋人"/>
+	<item lang="0x0804" type="Week" level="2" month="9" week="4" weekday="0" text="世界儿童日" short="儿童"/>
+	<item lang="0x0804" type="Week" level="3" month="9" week="5" weekday="0" text="世界海事日" short="海事"/>
+	<item lang="0x0804" type="Week" level="3" month="10" week="1" weekday="1" text="国际住房日" short="住房"/>
+	<item lang="0x0804" type="Week" level="3" month="10" week="1" weekday="3" text="国际减轻自然灾害日" short="减灾"/>
+	<item lang="0x0804" type="Week" level="1" month="11" week="4" weekday="4" text="感恩节" short="感恩"/>
+
+  <!-- 农历节日。不需要提供年份。如果是某月最后一天，可以用下个月的 0 日，如除夕。 -->
+	<item lang="0x0804" type="Lunar" level="1" month="1" day="1" text="春节" short="春节"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="3" text="天庆节" short="天庆"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="5" text="五路财神日" short="财神"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="8" text="江东神诞" short="江东"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="9" text="昊天皇帝诞" short="昊天"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="11" text="太均娘娘诞" short="太均"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="13" text="散花灯" short="散花"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="13" text="哥升节" short="哥升"/>
+	<item lang="0x0804" type="Lunar" level="1" month="1" day="15" text="元宵节" short="元宵"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="15" text="壮族歌墟节" short="歌墟"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="15" text="朝鲜族上元节" short="上元"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="15" text="苗族踩山节" short="踩山"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="15" text="达翰尔族卡钦" short="卡钦"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="16" text="馄饨节" short="馄饨"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="16" text="门神诞" short="门神"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="16" text="侗族芦笙节(1月16至20)" short="芦笙"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="19" text="丘处机诞" short="处机"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="20" text="女娲补天日" short="补天"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="20" text="黄道婆祭" short="黄婆"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="25" text="填仓节" short="填仓"/>
+	<item lang="0x0804" type="Lunar" level="3" month="1" day="27" text="天地水三官诞" short="三官"/>
+	<item lang="0x0804" type="Lunar" level="2" month="1" day="29" text="送穷日" short="送穷"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="1" text="瑶族忌鸟节" short="忌鸟"/>
+	<item lang="0x0804" type="Lunar" level="1" month="2" day="2" text="龙头节" short="龙头"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="2" text="太昊伏羲氏祭" short="伏羲"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="2" text="畲族会亲节" short="会亲"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="3" text="文昌诞" short="文昌"/>
+	<item lang="0x0804" type="Lunar" level="2" month="2" day="8" text="芳春节" short="芳春"/>
+	<item lang="0x0804" type="Lunar" level="2" month="2" day="8" text="插花节" short="插花"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="8" text="傈傈族刀杆节" short="刀杆"/>
+	<item lang="0x0804" type="Lunar" level="2" month="2" day="10" text="彩蛋节" short="彩蛋"/>
+	<item lang="0x0804" type="Lunar" level="2" month="2" day="12" text="花朝节" short="花朝"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="15" text="老子诞" short="老子"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="19" text="观音诞" short="观音"/>
+	<item lang="0x0804" type="Lunar" level="2" month="2" day="28" text="寒潮节" short="寒潮"/>
+	<item lang="0x0804" type="Lunar" level="3" month="2" day="28" text="岱诞" short="岱诞"/>
+	<item lang="0x0804" type="Lunar" level="2" month="3" day="3" text="上巳节" short="上巳"/>
+	<item lang="0x0804" type="Lunar" level="2" month="3" day="3" text="踏青节" short="踏青"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="5" text="大禹诞" short="大禹"/>
+	<item lang="0x0804" type="Lunar" level="2" month="3" day="10" text="撒种节" short="撒种"/>
+	<item lang="0x0804" type="Lunar" level="2" month="3" day="15" text="龙华会" short="龙华"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="15" text="孙膑诞" short="孙膑"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="15" text="佤族播种节" short="播种"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="15" text="白族三月街(3月15至25)" short="白族"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="16" text="蒙恬诞" short="蒙恬"/>
+	<item lang="0x0804" type="Lunar" level="2" month="3" day="18" text="中岳节" short="中岳"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="20" text="鲁班诞" short="鲁班"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="22" text="子孙娘娘诞" short="子孙"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="23" text="天后玛祖诞" short="玛祖"/>
+	<item lang="0x0804" type="Lunar" level="3" month="3" day="28" text="仓颉先师诞" short="仓颉"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="1" text="清和节" short="清和"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="2" text="公输般日" short="公输"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="8" text="洗佛放生节" short="洗佛"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="8" text="牛王诞" short="牛王"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="8" text="跳月节" short="跳月"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="10" text="葛洪诞" short="葛洪"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="11" text="孔子祭" short="孔子"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="14" text="吕洞宾诞" short="洞宾"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="14" text="菖蒲日" short="菖蒲"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="15" text="钟离权诞" short="离权"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="15" text="外萨卡佛陀日" short="外萨"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="17" text="金花女诞" short="金花"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="18" text="锡伯族西迁节" short="西迁"/>
+	<item lang="0x0804" type="Lunar" level="2" month="4" day="19" text="浣花日" short="浣花"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="26" text="炎帝神农氏诞" short="神农"/>
+	<item lang="0x0804" type="Lunar" level="3" month="4" day="28" text="扁鹊诞" short="扁鹊"/>
+	<item lang="0x0804" type="Lunar" level="2" month="5" day="1" text="女儿节" short="女儿"/>
+	<item lang="0x0804" type="Lunar" level="2" month="5" day="4" text="采花节" short="采花"/>
+	<item lang="0x0804" type="Lunar" level="1" month="5" day="5" text="端午节" short="端午"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="5" text="黎族朝花节" short="朝花"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="5" text="苗族龙船年" short="龙船"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="11" text="范蠡祭" short="范蠡"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="13" text="关羽诞" short="关羽"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="13" text="阿昌族泼水节" short="泼水"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="22" text="曹娥日" short="曹娥"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="22" text="鄂温克族米阔鲁节" short="米阔"/>
+	<item lang="0x0804" type="Lunar" level="2" month="5" day="29" text="祖娘节" short="祖娘"/>
+	<item lang="0x0804" type="Lunar" level="3" month="5" day="29" text="瑶族达努节" short="达努"/>
+	<item lang="0x0804" type="Lunar" level="2" month="6" day="6" text="天贶节" short="天贶"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="6" text="盘古逝" short="盘古"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="6" text="姑姑节" short="姑姑"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="6" text="壮族祭田节" short="祭田"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="6" text="瑶族尝新节" short="尝新"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="12" text="彭祖笺铿诞" short="彭祖"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="15" text="捕鱼祭" short="捕鱼"/>
+	<item lang="0x0804" type="Lunar" level="2" month="6" day="16" text="爬坡节" short="爬坡"/>
+	<item lang="0x0804" type="Lunar" level="2" month="6" day="19" text="太阳日" short="太阳"/>
+	<item lang="0x0804" type="Lunar" level="2" month="6" day="19" text="观音日" short="观音"/>
+	<item lang="0x0804" type="Lunar" level="3" month="6" day="23" text="火神诞" short="火神"/>
+	<item lang="0x0804" type="Lunar" level="1" month="6" day="24" text="火把节" short="火把"/>
+	<item lang="0x0804" type="Lunar" level="2" month="6" day="24" text="观莲节" short="观莲"/>
+	<item lang="0x0804" type="Lunar" level="1" month="7" day="7" text="七夕情人节" short="七夕"/>
+	<item lang="0x0804" type="Lunar" level="2" month="7" day="7" text="乞巧节" short="乞巧"/>
+	<item lang="0x0804" type="Lunar" level="2" month="7" day="12" text="地狱开门日" short="地狱"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="13" text="轩辕诞" short="轩辕"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="13" text="侗族吃新节" short="吃新"/>
+	<item lang="0x0804" type="Lunar" level="1" month="7" day="15" text="中元节" short="中元"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="15" text="盂兰盆会" short="盂兰"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="15" text="普米族转山会" short="转山"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="23" text="诸葛亮诞" short="诸葛"/>
+	<item lang="0x0804" type="Lunar" level="3" month="7" day="27" text="黄老诞" short="黄老"/>
+	<item lang="0x0804" type="Lunar" level="2" month="8" day="1" text="天医节" short="天医"/>
+	<item lang="0x0804" type="Lunar" level="3" month="8" day="3" text="华佗诞" short="华佗"/>
+	<item lang="0x0804" type="Lunar" level="1" month="8" day="15" text="中秋节" short="中秋"/>
+	<item lang="0x0804" type="Lunar" level="3" month="8" day="15" text="拉祜族尝新节" short="尝新"/>
+	<item lang="0x0804" type="Lunar" level="3" month="8" day="15" text="仡佬族后生节" short="后生"/>
+	<item lang="0x0804" type="Lunar" level="2" month="8" day="18" text="观潮节" short="观潮"/>
+	<item lang="0x0804" type="Lunar" level="2" month="8" day="24" text="稻节" short="稻节"/>
+	<item lang="0x0804" type="Lunar" level="1" month="9" day="9" text="重阳节" short="重阳"/>
+	<item lang="0x0804" type="Lunar" level="2" month="9" day="13" text="钉鞋日" short="钉鞋"/>
+	<item lang="0x0804" type="Lunar" level="3" month="9" day="16" text="伯余诞" short="伯余"/>
+	<item lang="0x0804" type="Lunar" level="2" month="9" day="19" text="观音逝" short="观音"/>
+	<item lang="0x0804" type="Lunar" level="2" month="9" day="30" text="采参节" short="采参"/>
+	<item lang="0x0804" type="Lunar" level="2" month="10" day="1" text="祭祖节" short="祭祖"/>
+	<item lang="0x0804" type="Lunar" level="2" month="10" day="1" text="送寒衣节" short="寒衣"/>
+	<item lang="0x0804" type="Lunar" level="2" month="10" day="15" text="下元节" short="下元"/>
+	<item lang="0x0804" type="Lunar" level="3" month="10" day="15" text="文成公主诞" short="文成"/>
+	<item lang="0x0804" type="Lunar" level="2" month="10" day="16" text="盘古节" short="盘古"/>
+	<item lang="0x0804" type="Lunar" level="3" month="10" day="16" text="瑶族盘王节" short="盘王"/>
+	<item lang="0x0804" type="Lunar" level="3" month="12" day="5" text="苗族姊妹饭节" short="姊妹"/>
+	<item lang="0x0804" type="Lunar" level="1" month="12" day="8" text="腊八节" short="腊八"/>
+	<item lang="0x0804" type="Lunar" level="2" month="12" day="12" text="百福日" short="百福"/>
+	<item lang="0x0804" type="Lunar" level="3" month="12" day="12" text="蚕花娘娘诞" short="蚕花"/>
+	<item lang="0x0804" type="Lunar" level="2" month="12" day="23" text="洗灶日" short="洗灶"/>
+	<item lang="0x0804" type="Lunar" level="1" month="12" day="23" text="小年" short="小年"/>
+	<item lang="0x0804" type="Lunar" level="2" month="12" day="25" text="上帝下界之辰" short="上帝"/>
+	<item lang="0x0804" type="Lunar" level="1" month="1" day="0" text="除夕" short="除夕"/>
+
+  <!-- 繁體中文: 台灣節日 -->
+  <!-- 國歷節日 -->
+  <!-- level 1-3 為 常用節日、較常用節日、不常用節日 -->
+	<item lang="0x0404" type="Solar" level="1" month="1" day="1" text="元旦" short="元旦"/>
+	<item lang="0x0404" type="Solar" level="3" month="1" day="11" text="司法節"/>
+	<item lang="0x0404" type="Solar" level="3" month="1" day="15" text="藥師節"/>
+	<item lang="0x0404" type="Solar" level="2" month="1" day="23" text="自由日"/>
+	<item lang="0x0404" type="Solar" level="3" month="2" day="4" text="農民節"/>
+	<item lang="0x0404" type="Solar" level="1" month="2" day="14" text="情人節" short="情人"/>
+	<item lang="0x0404" type="Solar" level="3" month="2" day="15" text="戲劇節"/>
+	<item lang="0x0404" type="Solar" level="1" month="2" day="28" text="和平紀念日" short="和平"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="1" text="兵役節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="5" text="童子軍節"/>
+	<item lang="0x0404" type="Solar" level="1" month="3" day="8" text="婦女節"/>
+	<item lang="0x0404" type="Solar" level="2" month="3" day="12" text="植樹節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="17" text="國醫節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="20" text="郵政節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="21" text="氣象節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="25" text="美術節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="26" text="廣播節"/>
+	<item lang="0x0404" type="Solar" level="2" month="3" day="29" text="青年節"/>
+	<item lang="0x0404" type="Solar" level="3" month="3" day="30" text="出版節"/>
+	<item lang="0x0404" type="Solar" level="2" month="4" day="1" text="愚人節"/>
+	<item lang="0x0404" type="Solar" level="3" month="4" day="1" text="主計節"/>
+	<item lang="0x0404" type="Solar" level="1" month="4" day="4" text="婦幼節" short="婦幼"/>
+	<item lang="0x0404" type="Solar" level="1" month="4" day="5" text="清明節" short="清明"/>
+	<item lang="0x0404" type="Solar" level="3" month="4" day="7" text="衛生節"/>
+	<item lang="0x0404" type="Solar" level="2" month="4" day="22" text="世界地球日"/>
+	<item lang="0x0404" type="Solar" level="1" month="5" day="1" text="勞動節" short="勞動"/>
+	<item lang="0x0404" type="Solar" level="3" month="5" day="4" text="文藝節"/>
+	<item lang="0x0404" type="Solar" level="3" month="5" day="5" text="舞蹈節"/>
+	<item lang="0x0404" type="Solar" level="3" month="5" day="10" text="珠算節"/>	
+	<item lang="0x0404" type="Solar" level="3" month="5" day="12" text="護士節"/>
+	<item lang="0x0404" type="Solar" level="3" month="6" day="3" text="禁煙節"/>
+	<item lang="0x0404" type="Solar" level="3" month="6" day="6" text="工程師節"/>
+	<item lang="0x0404" type="Solar" level="3" month="6" day="9" text="鐵路節"/>
+	<item lang="0x0404" type="Solar" level="3" month="6" day="15" text="警察節"/>
+	<item lang="0x0404" type="Solar" level="3" month="6" day="30" text="會計師節"/>	
+	<item lang="0x0404" type="Solar" level="3" month="7" day="11" text="航海節"/>
+	<item lang="0x0404" type="Solar" level="3" month="7" day="12" text="聾啞節"/>	
+	<item lang="0x0404" type="Solar" level="1" month="8" day="8" text="父親節" short="父親"/>
+	<item lang="0x0404" type="Solar" level="3" month="8" day="14" text="空軍節"/>
+	<item lang="0x0404" type="Solar" level="3" month="9" day="1" text="記者節"/>
+	<item lang="0x0404" type="Solar" level="3" month="9" day="3" text="軍人節"/>
+	<item lang="0x0404" type="Solar" level="3" month="9" day="9" text="體育節"/>
+	<item lang="0x0404" type="Solar" level="3" month="9" day="9" text="律師節"/>		
+	<item lang="0x0404" type="Solar" level="1" month="9" day="28" text="教師節" short="教師"/>
+	<item lang="0x0404" type="Solar" level="1" month="10" day="10" text="國慶日" short="國慶"/>
+	<item lang="0x0404" type="Solar" level="3" month="10" day="21" text="華僑節"/>
+	<item lang="0x0404" type="Solar" level="1" month="10" day="25" text="光復節" short="光復"/>
+	<item lang="0x0404" type="Solar" level="1" month="10" day="31" text="萬聖節" short="萬聖"/>
+	<item lang="0x0404" type="Solar" level="3" month="11" day="1" text="商人節"/>
+	<item lang="0x0404" type="Solar" level="3" month="11" day="11" text="地政節"/>
+	<item lang="0x0404" type="Solar" level="3" month="11" day="21" text="防空節"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="5" text="海員節"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="10" text="人權節"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="12" text="憲兵節"/>
+	<item lang="0x0404" type="Solar" level="1" month="12" day="24" text="平安夜"/>
+	<item lang="0x0404" type="Solar" level="1" month="12" day="25" text="聖誕節" short="聖誕"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="27" text="建築師節"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="28" text="電信節"/>
+	<item lang="0x0404" type="Solar" level="3" month="12" day="31" text="受信節"/>
+
+  <!-- 國曆紀念日 -->
+  	<item lang="0x0404" type="SolarDay" level="2" year="1911" month="1" day="1" text="開國"/>   
+	<item lang="0x0404" type="SolarDay" level="2" year="1925" month="3" day="12" text="國父逝世"/>
+	<item lang="0x0404" type="SolarDay" level="2" year="1887" month="10" day="31" text="蔣公誕辰"/>
+	<item lang="0x0404" type="SolarDay" level="2" year="1866" month="11" day="12" text="國父誕辰"/>
+	<item lang="0x0404" type="SolarDay" level="2" year="1947" month="12" day="25" text="行憲"/>
+
+  <!-- 國曆指定週節日 -->
+	<item lang="0x0404" type="Week" level="1" month="5" week="2" weekday="0" text="母親節" short="母親"/>
+	<item lang="0x0404" type="Week" level="1" month="11" week="4" weekday="4" text="感恩節" short="感恩"/>
+
+  <!-- 農曆節日 -->
+	<item lang="0x0404" type="Lunar" level="1" month="1" day="1" text="春節" short="春節"/>
+	<item lang="0x0404" type="Lunar" level="2" month="1" day="9" text="天公生"/>
+	<item lang="0x0404" type="Lunar" level="1" month="1" day="15" text="元宵節" short="元宵"/>
+	<item lang="0x0404" type="Lunar" level="2" month="2" day="19" text="菩薩誕辰"/>
+	<item lang="0x0404" type="Lunar" level="2" month="3" day="23" text="媽祖誕辰"/>
+	<item lang="0x0404" type="Lunar" level="2" month="4" day="8" text="佛陀誕辰"/>
+	<item lang="0x0404" type="Lunar" level="1" month="5" day="5" text="端午節" short="端午"/>
+	<item lang="0x0404" type="Lunar" level="2" month="7" day="1" text="開鬼門"/>
+	<item lang="0x0404" type="Lunar" level="1" month="7" day="7" text="七夕情人節" short="七夕"/>
+	<item lang="0x0404" type="Lunar" level="1" month="7" day="15" text="中元節" short="中元"/>
+	<item lang="0x0404" type="Lunar" level="2" month="7" day="30" text="關鬼門"/>
+	<item lang="0x0404" type="Lunar" level="1" month="8" day="15" text="中秋節" short="中秋"/>
+	<item lang="0x0404" type="Lunar" level="1" month="9" day="9" text="重陽節" short="重陽"/>
+	<item lang="0x0404" type="Lunar" level="2" month="12" day="8" text="臘八節" short="臘八"/>
+	<item lang="0x0404" type="Lunar" level="1" month="12" day="23" text="小年夜" short="小年"/>
+	<item lang="0x0404" type="Lunar" level="1" month="12" day="30" text="除夕" short="除夕"/>
+</holidays>
