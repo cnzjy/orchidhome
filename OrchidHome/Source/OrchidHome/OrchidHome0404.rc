@@ -1,0 +1,573 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 笢恅(怢俜) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL\r\n"
+    "#pragma code_page(950)\r\n"
+    "#include ""OrchidHome.rc2""  // 準 Microsoft Visual C++ 晤憮腔訧埭\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOG  0, 0, 118, 106
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+BEGIN
+    CONTROL         "",IDC_LISTMAINALARM,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOCOLUMNHEADER | WS_TABSTOP,0,0,118,106
+    CONTROL         "",IDC_LISTMAINUSERDAY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOCOLUMNHEADER | WS_TABSTOP,0,0,118,106
+    CONTROL         "",IDC_LISTMAINTOOLS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_TABSTOP,0,0,118,106
+END
+
+IDD_EDITDAYDLG DIALOG  0, 0, 118, 106
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+BEGIN
+    LISTBOX         IDC_LISTHOLITYPE,26,3,88,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDITHOLINAME,26,16,88,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITHOLISHORT,26,29,88,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITYEAR,26,42,21,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITMONTH,62,42,14,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITDAY,90,42,14,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITWEEKMONTH,26,42,14,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITWEEK,62,42,14,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITWEEKDAY,100,42,14,10,ES_AUTOHSCROLL
+    CONTROL         "同時增加公農曆項。",IDC_CHECKADDDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,26,55,88,10
+    LTEXT           "類型:",IDC_STATIC,2,3,24,10
+    LTEXT           "名稱:",IDC_STATIC,2,16,24,10
+    LTEXT           "縮寫:",IDC_STATIC,2,30,24,10
+    LTEXT           "日期:",IDC_STATIC,2,42,24,10
+    LTEXT           "年",IDC_TEXTYEAR,50,42,12,10
+    LTEXT           "月",IDC_TEXTMONTH,79,42,12,10
+    LTEXT           "日",IDC_TEXTDAY,106,42,12,10
+    LTEXT           "月第",IDC_TEXTWEEKMONTH,42,42,24,10
+    LTEXT           "個周",IDC_TEXTWEEK,79,42,24,10
+    LTEXT           "說明: 選擇節日類型；在名稱中輸入節日名稱、姓名或紀念日說明；縮寫用來在短節日標籤內顯示，可不填。",IDC_STATIC,2,67,114,35
+END
+
+IDD_EDITALARMDLG DIALOG  0, 0, 118, 150
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+BEGIN
+    EDITTEXT        IDC_EDITALARMTEXT,27,3,87,10,ES_AUTOHSCROLL
+    LISTBOX         IDC_LISTALARMTYPE,27,16,87,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_ALARMDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,27,29,54,10
+    CONTROL         "",IDC_ALARMTIME,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,27,42,28,10
+    CONTROL         "",IDC_ALARMTIME2,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,86,42,28,10
+    EDITTEXT        IDC_EDITALARMTARGET,27,55,87,10,ES_AUTOHSCROLL
+    LISTBOX         IDC_LISTSNDFILE,27,81,87,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LISTVOLUME,27,94,36,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LISTRECURTYPE,27,107,87,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "一",IDC_CHECKWEEK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,120,21,10
+    CONTROL         "二",IDC_CHECKWEEK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,120,21,10
+    CONTROL         "三",IDC_CHECKWEEK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,120,21,10
+    CONTROL         "四",IDC_CHECKWEEK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,93,120,21,10
+    CONTROL         "五",IDC_CHECKWEEK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,131,21,10
+    CONTROL         "六",IDC_CHECKWEEK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,131,21,10
+    CONTROL         "日",IDC_CHECKWEEK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,131,21,10
+    EDITTEXT        IDC_EDITALARMMONTH,27,120,87,10,ES_AUTOHSCROLL
+    LTEXT           "名稱:",IDC_STATIC,3,3,24,10
+    LTEXT           "類型:",IDC_STATIC,3,16,24,10
+    LTEXT           "日期:",IDC_STATIC,3,29,24,10
+    LTEXT           "時間:",IDC_STATIC,3,42,24,10
+    LTEXT           "結束:",IDC_LBLENDTIME,62,42,24,10
+    LTEXT           "文檔:",IDC_STATIC,3,55,24,10
+    LTEXT           "鈴音:",IDC_STATIC,3,81,24,10
+    LTEXT           "音量:",IDC_STATIC,3,94,24,10
+    LTEXT           "重複:",IDC_STATIC,3,107,24,10
+    LTEXT           "每週:",IDC_LBLALARMWEEK,3,120,24,10
+    LTEXT           "每月:",IDC_LBLALARMMONTH,3,120,24,10
+    CONTROL         "啟用",IDC_CHECKALARMENABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,29,29,10
+    LISTBOX         IDC_LISTALARMMODE,27,68,87,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "模式:",IDC_STATIC,3,68,24,10
+    LISTBOX         IDC_LISTRINGCOUNT,90,94,24,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "次數:",IDC_STATIC,66,94,24,10
+END
+
+IDD_OPTIONDLG DIALOG  0, 0, 118, 198
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_VSCROLL
+EXSTYLE 0x80000000L
+BEGIN
+    EDITTEXT        IDC_EDITLONGITUDE,31,12,26,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITLONGITUDE1,73,12,19,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITLATITUDE,31,25,26,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITLATITUDE1,73,25,19,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITZONETIME,31,38,26,10,ES_AUTOHSCROLL
+    CONTROL         "溫度單位為0.1度",IDC_CHECKTEMPERATURE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,75,100,10
+    EDITTEXT        IDC_EDITTEMPERATURE,31,87,26,10,ES_AUTOHSCROLL
+    CONTROL         "開啟倒計時",IDC_CHECKCOUNTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,114,102,10
+    EDITTEXT        IDC_EDITCOUNTER,31,125,78,10,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DTPCOUNTER,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,31,138,78,10
+    EDITTEXT        IDC_EDITINFOINTERVAL,64,167,28,10,ES_AUTOHSCROLL
+    LISTBOX         IDC_LISTHOLIDAYLEVEL,48,180,61,10,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "經度:",IDC_STATIC,7,12,24,10
+    LTEXT           "度",IDC_STATIC,61,12,12,10
+    LTEXT           "分",IDC_STATIC,96,12,12,10
+    LTEXT           "緯度:",IDC_STATIC,7,25,24,10
+    LTEXT           "度",IDC_STATIC,61,25,12,10
+    LTEXT           "分",IDC_STATIC,96,25,12,10
+    LTEXT           "時區:",IDC_STATIC,7,38,24,10
+    LTEXT           "注: 負數表示西經和南緯",IDC_STATIC,7,50,104,10
+    LTEXT           "修正:",IDC_STATIC,7,87,24,10
+    LTEXT           "度",IDC_STATIC,61,87,12,10
+    LTEXT           "名稱:",IDC_STATIC,7,125,24,10
+    LTEXT           "日期:",IDC_STATIC,7,138,24,10
+    LTEXT           "資訊更新週期:",IDC_STATIC,7,167,57,10
+    LTEXT           "秒",IDC_STATIC,96,167,12,10
+    LTEXT           "節日等級:",IDC_STATIC,7,180,41,10
+    GROUPBOX        "地理位置",IDC_STATIC,2,1,114,62
+    GROUPBOX        "溫度修正",IDC_STATIC,2,65,114,37
+    GROUPBOX        "倒計時",IDC_STATIC,2,104,114,49
+    GROUPBOX        "其他參數",IDC_STATIC,2,156,114,39
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_OKCANCEL MENU 
+BEGIN
+    MENUITEM "確定",                          IDOK
+    MENUITEM "取消",                          IDCANCEL
+END
+
+IDR_MENU_MAIN MENU 
+BEGIN
+    POPUP "菜單"
+    BEGIN
+        MENUITEM "萬年曆",                         IDM_PAGECALENDAR
+        MENUITEM "鬧鐘",                          IDM_PAGEALARM
+        MENUITEM "自定義節日",                       IDM_PAGEUSERDAY
+        MENUITEM "工具",                          IDM_PAGETOOLS
+        MENUITEM SEPARATOR
+        MENUITEM "設置",                          IDM_OPTION
+        MENUITEM SEPARATOR
+        POPUP "說明"
+        BEGIN
+            MENUITEM "郵件",                          IDM_MAILTO
+            MENUITEM "網站",                          IDM_WEBSITE
+            MENUITEM SEPARATOR
+            MENUITEM "關於",                          IDM_ABOUT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "關閉",                          IDCANCEL
+    END
+    POPUP "日曆"
+    BEGIN
+        MENUITEM "詳細資訊  [5]",                   IDM_DAYDETAIL
+        MENUITEM "轉到今日  [0]",                   IDM_GOTOTODAY
+        POPUP "轉到日期"
+        BEGIN
+            MENUITEM "前一天  [←,4]",                  IDM_LASTDAY
+            MENUITEM "後一天  [→,6]",                  IDM_NEXTDAY
+            MENUITEM "上一周  [↑,2]",                  IDM_LASTWEEK
+            MENUITEM "下一周  [↓,8]",                  IDM_NEXTWEEK
+            MENUITEM "上一月  [1]",                    IDM_LASTMONTH
+            MENUITEM "下一月  [3]",                    IDM_NEXTMONTH
+            MENUITEM "上一年  [7]",                    IDM_LASTYEAR
+            MENUITEM "下一年  [9]",                    IDM_NEXTYEAR
+        END
+        MENUITEM "當月節日",                        IDM_MONTHHOLIDAY
+        MENUITEM SEPARATOR
+        MENUITEM "上一畫面  [*]",                   IDM_PAGELAST
+        MENUITEM "下一畫面  [#]",                   IDM_PAGENEXT
+    END
+    POPUP "鬧鐘"
+    BEGIN
+        MENUITEM "新增鬧鐘  [1]",                   IDM_ALARMADD
+        MENUITEM "修改鬧鐘  [2]",                   IDM_ALARMEDIT
+        MENUITEM "刪除鬧鐘  [3]",                   IDM_ALARMDELETE
+        MENUITEM "清空列表",                        IDM_ALARMCLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "鬧鐘預覽  [0]",                   IDM_ALARMPREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "上一畫面  [*]",                   IDM_PAGELAST
+        MENUITEM "下一畫面  [#]",                   IDM_PAGENEXT
+    END
+    POPUP "節日"
+    BEGIN
+        MENUITEM "新增節日  [1]",                   IDM_HOLIDAYADD
+        MENUITEM "修改節日  [2]",                   IDM_HOLIDAYEDIT
+        MENUITEM "刪除節日  [3]",                   IDM_HOLIDAYDELETE
+        MENUITEM "清空列表",                        IDM_HOLIDAYCLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "上一畫面  [*]",                   IDM_PAGELAST
+        MENUITEM "下一畫面  [#]",                   IDM_PAGENEXT
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "執行",                          IDM_EXECTOOL
+        MENUITEM SEPARATOR
+        MENUITEM "上一畫面  [*]",                   IDM_PAGELAST
+        MENUITEM "下一畫面  [#]",                   IDM_PAGENEXT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_GAN01               "甲"
+    IDS_GAN02               "乙"
+    IDS_GAN03               "丙"
+    IDS_GAN04               "丁"
+    IDS_GAN05               "戊"
+    IDS_GAN06               "己"
+    IDS_GAN07               "庚"
+    IDS_GAN08               "辛"
+    IDS_GAN09               "壬"
+    IDS_GAN10               "癸"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ZHI01               "子"
+    IDS_ZHI02               "醜"
+    IDS_ZHI03               "寅"
+    IDS_ZHI04               "卯"
+    IDS_ZHI05               "辰"
+    IDS_ZHI06               "巳"
+    IDS_ZHI07               "午"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ZHI08               "未"
+    IDS_ZHI09               "申"
+    IDS_ZHI10               "酉"
+    IDS_ZHI11               "戌"
+    IDS_ZHI12               "亥"
+    IDS_SHENGXIAO01         "鼠"
+    IDS_SHENGXIAO02         "牛"
+    IDS_SHENGXIAO03         "虎"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHENGXIAO04         "兔"
+    IDS_SHENGXIAO05         "龍"
+    IDS_SHENGXIAO06         "蛇"
+    IDS_SHENGXIAO07         "馬"
+    IDS_SHENGXIAO08         "羊"
+    IDS_SHENGXIAO09         "猴"
+    IDS_SHENGXIAO10         "雞"
+    IDS_SHENGXIAO11         "狗"
+    IDS_SHENGXIAO12         "豬"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_XINGZUO01           "白羊"
+    IDS_XINGZUO02           "金牛"
+    IDS_XINGZUO03           "雙子"
+    IDS_XINGZUO04           "巨蟹"
+    IDS_XINGZUO05           "獅子"
+    IDS_XINGZUO06           "處女"
+    IDS_XINGZUO07           "天秤"
+    IDS_XINGZUO08           "天蠍"
+    IDS_XINGZUO09           "射手"
+    IDS_XINGZUO10           "摩羯"
+    IDS_XINGZUO11           "寶瓶"
+    IDS_XINGZUO12           "雙魚"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JIEQI01             "小寒"
+    IDS_JIEQI02             "大寒"
+    IDS_JIEQI03             "立春"
+    IDS_JIEQI04             "雨水"
+    IDS_JIEQI05             "驚蟄"
+    IDS_JIEQI06             "春分"
+    IDS_JIEQI07             "清明"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JIEQI08             "穀雨"
+    IDS_JIEQI09             "立夏"
+    IDS_JIEQI10             "小滿"
+    IDS_JIEQI11             "芒種"
+    IDS_JIEQI12             "夏至"
+    IDS_JIEQI13             "小暑"
+    IDS_JIEQI14             "大暑"
+    IDS_JIEQI15             "立秋"
+    IDS_JIEQI16             "處暑"
+    IDS_JIEQI17             "白露"
+    IDS_JIEQI18             "秋分"
+    IDS_JIEQI19             "寒露"
+    IDS_JIEQI20             "霜降"
+    IDS_JIEQI21             "立冬"
+    IDS_JIEQI22             "小雪"
+    IDS_JIEQI23             "大雪"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JIEQI24             "冬至"
+    IDS_NUM00               "日"
+    IDS_NUM01               "一"
+    IDS_NUM02               "二"
+    IDS_NUM03               "三"
+    IDS_NUM04               "四"
+    IDS_NUM05               "五"
+    IDS_NUM06               "六"
+    IDS_NUM07               "七"
+    IDS_NUM08               "八"
+    IDS_NUM09               "九"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NUM10               "十"
+    IDS_NUM11               "十一"
+    IDS_NUM12               "十二"
+    IDS_DAY0                "初"
+    IDS_DAY1                "十"
+    IDS_DAY2                "廿"
+    IDS_DAY3                "卅"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ZUO                 "座"
+    IDS_GUANGXU             "光緒"
+    IDS_XUANTONG            "宣統"
+    IDS_MINGUO              "民國"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_GONGYUAN            "西元"
+    IDS_YUAN                "元"
+    IDS_NIAN                "年"
+    IDS_LEAPMONTH           "閏"
+    IDS_MONTH               "月"
+    IDS_BIGMONTH            "大"
+    IDS_LITTLEMONTH         "小"
+    IDS_WEEK                "星期"
+    IDS_SUNALLWAYSUP        "日不落"
+    IDS_SUNALLWAYSDOWN      "日不升"
+    IDS_SUNERROR            "資料錯誤"
+    IDS_UNKNOWN             "未知"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HIGH                "高"
+    IDS_LOW                 "低"
+    IDS_CRITICAL            "危險"
+    IDS_CHARGING            "正在充電"
+    IDS_NONE                "無"
+    IDS_ALKALINE            "鹼性電池"
+    IDS_NICD                "鎳鎘電池"
+    IDS_NIMH                "鎳氫電池"
+    IDS_LIION               "鋰離子電池"
+    IDS_LIPB                "鋰聚合電池"
+    IDS_CALENDER_INFO       "[日曆]\n%d年%d月%d日 星期%s %s座\n農曆 %s年 %s %s %s\n%s年 %s月 %s日 %s時"
+    IDS_SUN_INFO            "\n\n[日出日落]\n經度: %3.1f 緯度: %3.1f\n日出: %s 日落: %s\n天亮: %s 天黑: %s\n日上中天: %s\n"
+    IDS_POWER_INFO          "[主電池]\n電池狀態: %s\n電池電量: %d%%\n電池溫度: %d 攝氏度\n當前電壓: %d 毫伏\n當前電流: %d 毫安培\n平均電流: %d 毫安培\n剩餘時間: %s\n總計時間: %s\n放電容量: %d 毫安培時\n電池介質: %s"
+    IDS_POWER_INFO_BK       "\n\n[備用電池]\n電池狀態: %s\n電池電量: %d%%\n當前電壓: %d 毫伏\n剩餘時間: %s\n總計時間: %s"
+    IDS_MEM_INFO            "[實體記憶體]\n總共: %.02f MB\n空閒: %.02f MB (%d%%)\n\n[物件存儲]\n總共: %.02f MB\n空閒: %.02f MB (%d%%)"
+    IDS_STORAGE_INFO        "\n\n[%s]\n總共: %.02f MB\n空閒: %.02f MB (%d%%)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HOLIDAY_INFO        "[今日]\n%s\n[明日]\n%s\n[近期]\n%s"
+    IDS_ABOUT_INFO          "%s %s\n\n該軟體為免費軟體！支援公農曆、電量、存儲、節日、生日等資訊；提供可分組切換的快捷方式功能；支持嵌套其他插件；顯示內容可自由定制。\n\n版權所有 %s\n網站: %s\n郵箱: %s\n編譯: %s"
+    IDS_FORMAT_TIME         "%d 天 %d 時 %d 分"
+    IDS_CAP_ABOUT           "關於軟體"
+    IDS_CAP_CALENDER        "日曆信息"
+    IDS_CAP_HOLIDAY         "節日信息"
+    IDS_CAP_POWER           "電源資訊"
+    IDS_CAP_MEM             "存儲資訊"
+    IDS_CAP_OPTION          "參數設置"
+    IDS_CAP_ALARMS          "鬧鐘設置"
+    IDS_CAP_MONTHHOLIDAY    "當月節日"
+    IDS_CAP_RESTART         "重新啟動"
+    IDS_CAP_SHUTDOWN        "關閉系統"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TI_CALENDER         "萬年曆"
+    IDS_TI_ALARM            "鬧鐘"
+    IDS_TI_USERDAY          "自定義節日"
+    IDS_TI_TOOLS            "工具"
+    IDS_FMTHOLI_DATE        "%d.%d "
+    IDS_FMTHOLI_BIRTH       "%s生日"
+    IDS_FMTHOLI_BIRTHL      "%s%d周歲生日"
+    IDS_FMTHOLI_LBIRTH      "%s%d歲農曆生日"
+    IDS_FMTHOLI_DAY         "%s紀念"
+    IDS_FMTHOLI_DAYL        "%s%d周年紀念"
+    IDS_FMTHOLI_LDATE       "(農曆%d.%d)"
+    IDS_FMTCAL_TODAY        "%d年%d月 %s年 %s %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FMTCAL_INFO         "[日曆]\n%d年%d月%d日 星期%s %s座\n農曆 %s年 %s %s %s\n%s年 %s月 %s日\n\n[日出日落]\n日出: %s 日落: %s\n天亮: %s 天黑: %s\n日上中天: %s\n\n[節日]\n%s"
+    IDS_FMTCAL_DAYCOUNT     "與今天相距 %d 天"
+    IDS_FMTCAL_MONTHHOLIDAY "[當月節日]\n%s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "確定"
+    IDS_CLOSE               "關閉"
+    IDS_DISPLAY             "顯示"
+    IDS_EDIT                "編輯"
+    IDS_MENU                "菜單"
+    IDS_CANCEL              "取消"
+    IDS_ACTION              "動作"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LD_SOLAR            "西曆節日"
+    IDS_LD_LUNAR            "農曆節日"
+    IDS_LD_WEEK             "星期節日"
+    IDS_LD_SOLARBIRTH       "西曆生日"
+    IDS_LD_LUNARBIRTH       "農曆生日"
+    IDS_LD_SOLARDAY         "西曆紀念日"
+    IDS_LD_LUNARDAY         "農曆紀念日"
+    IDS_LT_HOLIDAY          "節日"
+    IDS_LT_BIRTHDAY         "生日"
+    IDS_LT_REMDAY           "紀念日"
+    IDS_LF_SOLARDATE        "%d.%d.%d"
+    IDS_LF_SOLARSHORT       "%d.%d"
+    IDS_LF_LUNARDATE        "農曆%d.%d.%d"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LF_LUNARSHORT       "農曆%d.%d"
+    IDS_LF_WEEKDATE         "%d月第%d周%s"
+    IDS_MSG_CLEAR           "您確認要刪除所有的項目嗎？"
+    IDS_MSG_INVALIDDATE     "日期不正確，請輸入正確的日期！"
+    IDS_MSG_NAMEISEMPTY     "名稱不能為空，請輸入名稱！"
+    IDS_MSG_INVALIDINT      "請輸入有效的數位！"
+    IDS_MSG_EXECCONFIRM     "您確定要執行 %s 命令嗎？"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LT_ALARM            "定時提醒"
+    IDS_LT_EXECUTE          "執行程式"
+    IDS_LT_FLIGHTMODE       "飛行模式"
+    IDS_LT_SILENTMODE       "靜音模式"
+    IDS_LT_RESTART          "重新啟動"
+    IDS_LT_POWEROFF         "關閉電源"
+    IDS_LT_CHIME            "整點報時"
+    IDS_LT_ONCE             "一次"
+    IDS_LT_DAILY            "每天"
+    IDS_LT_WEEKDAYS         "工作日"
+    IDS_LT_WEEKENDS         "週末"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LT_WEEKLY           "每週"
+    IDS_LT_MONTHLY          "每月"
+    IDS_LT_ANNUALLY         "每年"
+    IDS_LT_INTERVAL         "每隔天數"
+    IDS_LT_RING             "響鈴"
+    IDS_LT_VIBRATE          "振動"
+    IDS_LT_BOTH             "響鈴加振動"
+    IDS_LT_VIBRATEFIRST     "先振動後響鈴"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LT_SNDFILEDEF       "默認鈴聲"
+    IDS_LT_VOLUMEDEF        "默認音量"
+    IDS_LT_VOLUME0          "關閉"
+    IDS_LT_VOLUME1          "1"
+    IDS_LT_VOLUME2          "2"
+    IDS_LT_VOLUME3          "3"
+    IDS_LT_VOLUME4          "4"
+    IDS_LT_VOLUME5          "大聲"
+    IDS_LT_HOLIDAYLEVEL0    "自定義"
+    IDS_LT_HOLIDAYLEVEL1    "常用"
+    IDS_LT_HOLIDAYLEVEL2    "較常用"
+    IDS_LT_HOLIDAYLEVEL3    "所有"
+END
+
+#endif    // 笢恅(怢俜) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#include "OrchidHome.rc2"  // 準 Microsoft Visual C++ 晤憮腔訧埭
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
