@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrchidTouch", "OrchidTouch\OrchidTouch.vcproj", "{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "OrchidTouchCab", "OrchidTouchCab\OrchidTouchCab.vddproj", "{8A81A1AE-8B7D-4388-817F-05480D588265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{8E471DFA-566C-4B5C-8A66-DE7D0FA8C598}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{8A81A1AE-8B7D-4388-817F-05480D588265}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug
+		{8A81A1AE-8B7D-4388-817F-05480D588265}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug
+		{8A81A1AE-8B7D-4388-817F-05480D588265}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release
+		{8A81A1AE-8B7D-4388-817F-05480D588265}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

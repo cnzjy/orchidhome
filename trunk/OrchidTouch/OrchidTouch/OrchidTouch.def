@@ -1,0 +1,15 @@
+EXPORTS
+
+DllGetClassObject PRIVATE
+DllCanUnloadNow PRIVATE
+DllRegisterServer PRIVATE
+DllUnregisterServer PRIVATE
+TouchPanelGetDeviceCaps
+TouchPanelSetMode
+TouchPanelEnable
+TouchPanelDisable
+TouchPanelReadCalibrationPoint
+TouchPanelReadCalibrationAbort
+TouchPanelSetCalibration
+TouchPanelCalibrateAPoint
+TouchPanelPowerHandler
