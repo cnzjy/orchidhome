@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Phone Name="多普达575">
+	<Item Name="Do键" Shortcut="\Storage\Keys\DokeySP.lnk"/>
+	<Item Name="Do键(长按)" Shortcut="\Storage\Keys\DokeyLP.lnk"/>
+	<Item Name="Mo键" Shortcut="\Storage\Keys\MoSP.lnk"/>
+	<Item Name="Mo键(长按)" Shortcut="\Storage\Keys\MoLP.lnk"/>
+	<Item Name="相机键" Shortcut="\Storage\Keys\CameraSP.lnk"/>
+	<Item Name="相机键(长按)" Shortcut="\Storage\Keys\CameraLP.lnk"/>
+	<Item Name="桌面键(长按)" Shortcut="\Storage\Keys\Home.lnk"/>
+</Phone>

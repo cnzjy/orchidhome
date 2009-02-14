@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Phone Name="多普达577/577w">
+	<Item Name="联系人" Shortcut="\Windows\Short_AP1.lnk"/>
+	<Item Name="邮件系统" Shortcut="\Windows\Short_AP2.lnk"/>
+</Phone>

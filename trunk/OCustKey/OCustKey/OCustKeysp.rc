@@ -1,0 +1,212 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcesp.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcesp.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""OCustKeysp.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,0
+ PRODUCTVERSION 1,2,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Orchid Function Key Config Tool"
+            VALUE "FileVersion", "1, 2, 0, 0"
+            VALUE "InternalName", "OCustKey"
+            VALUE "LegalCopyright", "Copyright (C) 2008 Orchid Mobile Software"
+            VALUE "OriginalFilename", "OCustKey.exe"
+            VALUE "ProductName", "Orchid Function Key Config Tool"
+            VALUE "ProductVersion", "1, 2, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_OSCONFIG            ICON                    "OCustKey.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGCONFIG DIALOG  0, 0, 118, 106
+STYLE DS_SETFONT | WS_VISIBLE | WS_CAPTION
+EXSTYLE 0x80000000L
+FONT 10, "System"
+BEGIN
+    LTEXT           "静态",IDC_STATIC_TITLE,2,2,116,10
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | LVS_OWNERDATA | WS_TABSTOP,2,14,111,85
+END
+
+IDD_DLGOPENFILE DIALOG  0, 0, 118, 106
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+BEGIN
+    CONTROL         "",IDC_LISTFILES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | LVS_OWNERDATA | WS_TABSTOP,0,0,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_OKCANCEL MENU 
+BEGIN
+    MENUITEM "确定",                          IDOK
+    MENUITEM "取消",                          IDCANCEL
+END
+
+IDR_MENU_CONFIG MENU 
+BEGIN
+    POPUP "操作"
+    BEGIN
+        MENUITEM "修改",                          ID_ACTION_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                          ID_ACTION_DELETE
+        MENUITEM "删除全部",                      ID_ACTION_DELETE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "恢复",                          ID_ACTION_DEFAULT
+        MENUITEM "恢复全部",                      ID_ACTION_DEFAULT_ALL
+        MENUITEM SEPARATOR
+        POPUP "选择设备"
+        BEGIN
+            MENUITEM "自动",                      ID_SEL_AUTO
+            MENUITEM SEPARATOR
+        END
+    END
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "确定",                          ID_MENU_APPLY
+        MENUITEM "取消",                          IDCANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "关于",                          ID_MENU_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_CONFIG_TITLE        "功能键定义 v1.2"
+    IDS_APPLY               "应用"
+    IDS_CLOSE               "关闭"
+    IDS_APPLYSUCC           "手机功能键设置成功！"
+    IDS_APPLYFAIL           "手机功能键 [%s] 设置失败！\n\n如果手机没有解锁，请先解锁再设置。"
+    IDS_OK                  "确定"
+    IDS_CANCEL              "取消"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CAPTION_OPENFILE    "文件浏览"
+    IDS_LV_SHNO             "功能键"
+    IDS_LV_SHN1             "快捷方式"
+    IDS_NONE                "<无>"
+    IDS_ACTION              "操作"
+    IDS_MENU                "菜单"
+    IDS_DATAERROR           "打开数据文件失败，请重新安装软件！"
+    IDS_ABOUT               "功能键定义工具 v1.2\n\nOrchid Mobile Software\nwww.orchid-soft.com\nmaster@orchid-soft.com\n\n日期：2008.03.01\n授权：免费软件"
+    IDS_CFG_TEXT            "当前设备: %s"
+    IDS_CFG_TEXT_AUTO       "当前设备: %s (自动)"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#include "OCustKeysp.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

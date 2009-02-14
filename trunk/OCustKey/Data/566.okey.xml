@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Phone Name="多普达566">
+	<Item Name="音乐键一" Shortcut="\Storage\Short_AP1.lnk"/>
+	<Item Name="音乐键一(长按)" Shortcut="\Storage\Long_AP1.lnk"/>
+	<Item Name="音乐键二" Shortcut="\Storage\Short_AP2.lnk"/>
+	<Item Name="音乐键三" Shortcut="\Storage\Short_AP3.lnk"/>
+	<Item Name="音乐键四" Shortcut="\Storage\Short_AP4.lnk"/>
+	<Item Name="通讯管理" Shortcut="\Storage\Short_POC.lnk"/>
+	<Item Name="通讯管理(长按)" Shortcut="\Storage\Long_POC.lnk"/>
+	<Item Name="相机键(长按)" Shortcut="\Storage\Long_Launch.lnk"/>
+	<Item Name="桌面键(长按)" Shortcut="\Storage\Long_Home.lnk"/>
+</Phone>

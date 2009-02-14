@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Phone Name="Lobster700TV">
+  <Item Name="TV键" Shortcut="\Windows\dabplayer.lnk"/>
+  <Item Name="音量增(长按)" Shortcut="\Windows\Long_volup.lnk"/>
+  <Item Name="音量减(长按)" Shortcut="\Windows\Long_voldown.lnk"/>
+  <Item Name="相机键(长按)" Shortcut="\Windows\Long_camera.lnk"/>
+  <Item Name="桌面键(长按)" Shortcut="\Windows\Long_Home.lnk"/>
+</Phone>

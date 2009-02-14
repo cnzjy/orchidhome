@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Phone Name="多普达565">
+	<Item Name="相机键" Shortcut="\Storage\Keys\CameraSP.lnk"/>
+	<Item Name="相机键(长按)" Shortcut="\Storage\Keys\CameraLP.lnk"/>
+	<Item Name="桌面键(长按)" Shortcut="\Storage\Keys\Home.lnk"/>
+	<Item Name="右软键(长按)" Shortcut="\Storage\Keys\Right.lnk"/>
+</Phone>
